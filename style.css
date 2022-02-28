@@ -1,0 +1,21 @@
+* {
+    background-color: aqua;
+
+}
+h1 {
+    text-align: center;
+}
+a href {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+}
+article {
+    font-size: 24px;
+    font-weight: 500;
+    margin-left: 165px;
+    padding-top: 95px;
+}
+img {
+    margin-left: 85px;
+}
