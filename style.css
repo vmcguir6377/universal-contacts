@@ -152,7 +152,10 @@ img {
     margin: 0;
     font-size: 1.8rem;
   }
-  
+  .area {
+    color: var(--secondary);
+    font-size: 1.55rem;
+  }
   .job-title {
     color: var(--secondary);
     font-size: 1.55rem;
