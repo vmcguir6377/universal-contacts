@@ -1,5 +1,5 @@
 * {
-    background-color: aqua;
+    background-color: #ff7944;
 
 }
 h1 {
@@ -39,16 +39,16 @@ img {
   }
   
   :root {
-    --primary: #44e9ff;
-    --secondary: #497980;
-    --tertiary: rgb(192, 246, 253);
+    --primary: #ff7944;
+    --secondary: #09078d;
+    --tertiary: rgb(241, 247, 247);
     --grey: #333;
     font-size: 62.5%;
   }
   
   body {
-    background: #ededed;
-    color: var(--grey);
+    background: #ff7944;
+    color: var(--white);
     margin: 0;
     padding: 0;
     display: flex;
@@ -119,24 +119,11 @@ img {
     margin: 25px auto;
     width: 95%;
   }
-  
-  .task-list-wrapper {
-    flex: 1;
-    margin: 0 20px 20px;
-  }
+ 
   
   .list-title {
     color: var(--secondary);
     font-size: 2.6rem;
-  }
-  
-  .task-list {
-    list-style: none;
-    padding: 15px;
-    height: calc(100% - 50px);
-    background: rgb(196, 196, 196);
-    border-radius: 12px;
-    border: 2px solid var(--grey);
   }
   
   .task-item {
@@ -149,6 +136,7 @@ img {
   }
   
   .employee-name {
+    background-color: var(--secondary);
     margin: 0;
     font-size: 1.8rem;
   }
@@ -159,18 +147,6 @@ img {
   .job-title {
     color: var(--secondary);
     font-size: 1.55rem;
-  }
-  .task-actions {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    margin: 10px 0 5px 0;
-    justify-content: space-between;
-  }
-  
-  .task-actions button,
-  .task-actions select {
-    flex: 1;
   }
   
   .btn {
@@ -195,6 +171,7 @@ img {
     top: 0;
   }
   
+  /* use these for update.html*/
   .edit-btn,
   .delete-btn {
     font-size: 1.4rem;
@@ -255,6 +232,7 @@ img {
     font-size: 2rem;
   }
   
+  /* Media queries */
   @media screen and (max-width: 980px) {
     form .form-group {
       flex: 1 100%;
