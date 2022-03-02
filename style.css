@@ -4,6 +4,7 @@
 }
 h1 {
     text-align: center;
+    font-size: 40px;
 }
 a href {
     text-align: center;
@@ -11,12 +12,14 @@ a href {
     font-weight: 500;
 }
 article {
-    margin-left: 155px;
+    margin-left: 135px;
+    margin-bottom: -5px;
 }
 article3 {
     margin-left: 105px;
     margin-bottom: 15px;
     margin-top: 10px;
+    margin-right: 55px;
 }
 container {
     display: flex;
