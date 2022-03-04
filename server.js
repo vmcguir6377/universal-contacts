@@ -1,10 +1,20 @@
-const mysql = require('mysql2');
+var http = require('http');
+const http = require('http');
+const app = require('./app.js');
+
+const port = process.env.PORT || 3000;
+
+const server = http.createServer(app);
+
+server.listen(port);
+
+/*const mysql = require('mysql2');
 
 const db = mysql.createConnection( {
     host: 'localhost',
-    user: 'sa',
-    password: 'ulsdbadmin',
+    user: 'root',
+    password: 'Drm71vmm77',
     database: 'universal_contacts'
 })
-console.log("You are now connected to the database."),
+console.log("You are now connected to the database.");*/
 
