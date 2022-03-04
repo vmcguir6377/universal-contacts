@@ -11,7 +11,6 @@
     "type": "git",
     "url": "git+https://github.com/vmcguir6377/universal-contacts.git"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
@@ -21,7 +20,6 @@
   "dependencies": {
     "express": "^4.17.3",
     "mysql2": "^2.3.3",
-    "sequel": "^0.3.10",
     "server": "^1.0.37"
   }
 }
