@@ -1,12 +1,14 @@
 
-/*const http = require('http');
-const app = require('./app.js');
+const express = require('express');
+const path = require('path');
+app.use(express.static(path.join(__dirname, './')));
 
-const port = process.env.PORT || 80;
+const PORT = 80;
 
-const server = http.createServer(app);
+app.listen(PORT, () => {
+  console.log(`Server running at: http://localhost:${PORT}`);
+});
 
-server.listen(port);*/
 
 const mysql = require('mysql2');
 

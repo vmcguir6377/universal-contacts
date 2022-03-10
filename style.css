@@ -1,15 +1,31 @@
 * {
     background-color: #ff7944;
-
+}
+.column1 {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  margin-bottom: 500px;
+  margin-left: -35px;
+}
+.column2 {
+  float: right;
+  width: 50%;
+  padding: 10px;
+  margin-left: 950px;
+  margin-right: 50px;
+  margin-top: -1920px;
 }
 h1 {
     text-align: center;
     font-size: 40px;
+    color:#09078d;
 }
 a href {
     text-align: center;
     font-size: 24px;
     font-weight: 500;
+    
 }
 article {
     margin-left: 135px;
@@ -77,25 +93,39 @@ img {
     font-size: 1.6rem;
   }
   
-  form {
+  add-form1 {
     display: flex;
+    flex-direction: column;
     align-items: flex-end;
     flex-wrap: wrap;
+    color: white;
+    color: var(--secondary);
+  }
+  add-form2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    color: white;
+    color: var(--secondary);
   }
   
   form input {
+    background-color: #fff;
+    color:var(--secondary);
     outline: none;
     border: none;
     padding: 12px;
     width: 100%;
     font-size: 2.2rem;
-    border: 2px solid var(--grey);
+    border: 2px solid var(--secondary);
     border-radius: 12px;
   }
   
   form .form-group {
-    margin: 10px 6px 10px 0;
+    margin: 50px 10px 50px 50px;
     flex: 1;
+    color: var(--secondary);
   }
   
   footer {
@@ -155,18 +185,22 @@ img {
   .btn {
     outline: none;
     border: none;
-    display: inline-block;
-    padding: 10px 15px;
+    color:#fff;
+    padding: 10px 150px;
     background: var(--primary);
     font-size: 2.2rem;
     border-radius: 12px;
-    position: relative;
+    margin-top: -15px;
+    margin-left: 750px;
+
+   position:relative;
+    
     top: -3px;
     box-shadow: 0 3px var(--grey);
   }
   
   .btn:hover {
-    box-shadow: 0 2px var(--grey);
+    box-shadow: 0 2px white;
     top: -2px;
   }
   .btn:active {
@@ -188,7 +222,7 @@ img {
   .select-status {
     display: block;
     font-size: 2.2rem;
-    color: #444;
+    color: var(--grey);
     padding: 12px;
     width: 100%;
     max-width: 100%;
@@ -218,7 +252,7 @@ img {
   
   .select-dropdown:hover,
   .select-status:hover {
-    border-color: #888;
+    border-color: var(--secondary);
   }
   
   .select-dropdown:focus,
